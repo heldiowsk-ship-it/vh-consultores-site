@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V&H Consultores</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="images/logo_vh.jpg" alt="V&H Consultores Logo" class="logo-img">
+                <div class="logo-text-group">
+                    <span class="logo-vh">V<span class="logo-amp">&</span>H</span>
+                    <span class="logo-text">Consultores</span>
+                </div>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#about" class="nav-link" data-pt="Sobre" data-en="About">Sobre</a>
+                <a href="#expertise" class="nav-link" data-pt="Áreas" data-en="Expertise">Áreas</a>
+                <a href="#experience" class="nav-link" data-pt="Experiência" data-en="Experience">Experiência</a>
+                <a href="#team" class="nav-link" data-pt="Equipa" data-en="Team">Equipa</a>
+                <a href="#mediateca" class="nav-link" data-pt="Mediateca" data-en="Media">Mediateca</a>
+                <a href="#contact" class="nav-link" data-pt="Contacto" data-en="Contact">Contacto</a>
+                <button class="lang-toggle" id="langToggle" aria-label="Toggle language">
+                    <span class="lang-flag">🇲🇿</span>
+                    <span class="lang-code">PT</span>
+                </button>
+            </div>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-bg" style="background-image: url('images/campo1.jpg');">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-badge" data-pt="Consultoria Multidisciplinar — Moçambique" data-en="Multidisciplinary Consulting — Mozambique">
+                Consultoria Multidisciplinar — Moçambique
+            </div>
+            <h1 class="hero-title">
+                <span data-pt="Transformamos" data-en="We Transform">Transformamos</span>
+                <span class="highlight" data-pt="dados em decisões" data-en="data into decisions">dados em decisões</span>
+            </h1>
+            <p class="hero-subtitle" data-pt="Pesquisa, estratégia e desenvolvimento sustentável para instituições, organizações e comunidades em Moçambique." data-en="Research, strategy and sustainable development for institutions, organizations and communities in Mozambique.">
+                Pesquisa, estratégia e desenvolvimento sustentável para instituições, organizações e comunidades em Moçambique.
+            </p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary" data-pt="Fale Connosco" data-en="Get in Touch">Fale Connosco</a>
+                <a href="#expertise" class="btn btn-outline" data-pt="Os Nossos Serviços" data-en="Our Services">Os Nossos Serviços</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <div class="scroll-indicator">
+                <span data-pt="Descer" data-en="Scroll">Descer</span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / Institutional Profile -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-pt="PERFIL INSTITUCIONAL" data-en="INSTITUTIONAL PROFILE">PERFIL INSTITUCIONAL</span>
+                <h2 class="section-title">
+                    <span data-pt="Comprometidos com a" data-en="Committed to">Comprometidos com a</span>
+                    <em class="highlight" data-pt="evidência, o contexto e a sustentabilidade." data-en="evidence, context and sustainability.">evidência, o contexto e a sustentabilidade.</em>
+                </h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="lead" data-pt="A V&H Consultores é uma empresa moçambicana de consultoria multidisciplinar, constituída por uma equipa de jovens profissionais altamente qualificados, dedicados a fornecer soluções de desenvolvimento baseadas em evidências, responsivas ao contexto e sustentáveis." data-en="V&H Consultores is a Mozambican multidisciplinary consulting firm established by a team of highly qualified young professionals committed to delivering evidence-based, context-responsive, and sustainable development solutions.">
+                        A V&H Consultores é uma empresa moçambicana de consultoria multidisciplinar, constituída por uma equipa de jovens profissionais altamente qualificados, dedicados a fornecer soluções de desenvolvimento baseadas em evidências, responsivas ao contexto e sustentáveis.
+                    </p>
+                    <p data-pt="A empresa opera através de uma abordagem integrada que combina investigação científica, análise de dados, avaliação ambiental e socioeconómica, planeamento estratégico e serviços de assessoria institucional. O nosso trabalho é guiado pelo princípio de que a informação fiável e a análise rigorosa são fundamentais para a tomada de decisões eficazes e o desenvolvimento local sustentável." data-en="The firm operates through an integrated approach combining scientific research, data analytics, environmental and socioeconomic assessment, strategic planning, and institutional advisory services. Our work is guided by the principle that reliable information and rigorous analysis are fundamental for effective decision-making and sustainable local development.">
+                        A empresa opera através de uma abordagem integrada que combina investigação científica, análise de dados, avaliação ambiental e socioeconómica, planeamento estratégico e serviços de assessoria institucional. O nosso trabalho é guiado pelo princípio de que a informação fiável e a análise rigorosa são fundamentais para a tomada de decisões eficazes e o desenvolvimento local sustentável.
+                    </p>
+                    <p data-pt="Apoiamos instituições públicas, organizações de desenvolvimento, agentes do sector privado e iniciativas comunitárias através de serviços de consultoria tecnicamente sólidos e relevantes para as políticas, alinhados com normas internacionais e melhores práticas." data-en="We support public institutions, development organizations, private sector actors, and community-based initiatives through technically sound and policy-relevant consulting services aligned with international standards and best practices.">
+                        Apoiamos instituições públicas, organizações de desenvolvimento, agentes do sector privado e iniciativas comunitárias através de serviços de consultoria tecnicamente sólidos e relevantes para as políticas, alinhados com normas internacionais e melhores práticas.
+                    </p>
+                    <div class="about-tags">
+                        <span class="tag" data-pt="Resiliência Climática" data-en="Climate Resilience">Resiliência Climática</span>
+                        <span class="tag" data-pt="Desenvolvimento Rural" data-en="Rural Development">Desenvolvimento Rural</span>
+                        <span class="tag" data-pt="Análise Socioeconómica" data-en="Socioeconomic Analysis">Análise Socioeconómica</span>
+                        <span class="tag" data-pt="Sistemas Agrícolas" data-en="Agricultural Systems">Sistemas Agrícolas</span>
+                        <span class="tag" data-pt="Avaliação de Impacto" data-en="Impact Assessment">Avaliação de Impacto</span>
+                        <span class="tag" data-pt="Análise Espacial" data-en="Spatial Analysis">Análise Espacial</span>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="about-image-wrapper">
+                        <div class="about-image">
+                            <img src="images/equipa_grupo.jpg" alt="Equipa V&H Consultores em campo">
+                        </div>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <span class="stat-number">6+</span>
+                                <span class="stat-label" data-pt="Anos de experiência" data-en="Years of experience">Anos de experiência</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label" data-pt="Projectos concluídos" data-en="Projects completed">Projectos concluídos</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">7+</span>
+                                <span class="stat-label" data-pt="Áreas de especialização" data-en="Areas of expertise">Áreas de especialização</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise -->
+    <section class="section expertise" id="expertise">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-label" data-pt="ÁREAS DE ATUAÇÃO" data-en="CORE EXPERTISE">ÁREAS DE ATUAÇÃO</span>
+                <h2 class="section-title" data-pt="Competências técnicas para o desenvolvimento sustentável" data-en="Technical skills for sustainable development">Competências técnicas para o desenvolvimento sustentável</h2>
+            </div>
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                    </div>
+                    <h3 data-pt="Pesquisa, Monitoria e Avaliação" data-en="Research, M&E">Pesquisa, Monitoria e Avaliação</h3>
+                    <ul>
+                        <li data-pt="Estudos de base, linha média e final" data-en="Baseline, midline and endline studies">Estudos de base, linha média e final</li>
+                        <li data-pt="Avaliações de impacto" data-en="Impact evaluations">Avaliações de impacto</li>
+                        <li data-pt="Avaliações socioeconómicas" data-en="Socioeconomic assessments">Avaliações socioeconómicas</li>
+                        <li data-pt="Investigação científica e aplicada" data-en="Scientific and applied research">Investigação científica e aplicada</li>
+                        <li data-pt="Concepção e implementação de inquéritos" data-en="Survey design and implementation">Concepção e implementação de inquéritos</li>
+                    </ul>
+                </div>
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                    </div>
+                    <h3 data-pt="Análise de Dados e Análise Espacial" data-en="Data Analytics & Spatial Analysis">Análise de Dados e Análise Espacial</h3>
+                    <ul>
+                        <li data-pt="Desenho amostral" data-en="Sampling design">Desenho amostral</li>
+                        <li data-pt="Desenvolvimento de questionários" data-en="Questionnaire development">Desenvolvimento de questionários</li>
+                        <li data-pt="Supervisão de recolha de dados" data-en="Data collection supervision">Supervisão de recolha de dados</li>
+                        <li data-pt="Limpeza e gestão de dados" data-en="Data cleaning and management">Limpeza e gestão de dados</li>
+                        <li data-pt="Análise estatística e econométrica" data-en="Statistical and econometric analysis">Análise estatística e econométrica</li>
+                        <li data-pt="SIG e análise espacial" data-en="GIS and spatial analysis">SIG e análise espacial</li>
+                        <li data-pt="Georreferenciação e cartografia" data-en="Georeferencing and mapping">Georreferenciação e cartografia</li>
+                    </ul>
+                </div>
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    </div>
+                    <h3 data-pt="Clima, Ambiente e Resiliência" data-en="Climate, Environment & Resilience">Clima, Ambiente e Resiliência</h3>
+                    <ul>
+                        <li data-pt="Estudos de impacto ambiental" data-en="Environmental impact studies">Estudos de impacto ambiental</li>
+                        <li data-pt="Avaliações de vulnerabilidade climática" data-en="Climate vulnerability assessments">Avaliações de vulnerabilidade climática</li>
+                        <li data-pt="Gestão de recursos naturais" data-en="Natural resource management">Gestão de recursos naturais</li>
+                        <li data-pt="Análise de adaptação climática" data-en="Climate adaptation analysis">Análise de adaptação climática</li>
+                        <li data-pt="Planeamento ambiental e territorial" data-en="Environmental and territorial planning">Planeamento ambiental e territorial</li>
+                    </ul>
+                </div>
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+                    </div>
+                    <h3 data-pt="Estratégia e Assessoria em Desenvolvimento" data-en="Strategy & Development Advisory">Estratégia e Assessoria em Desenvolvimento</h3>
+                    <ul>
+                        <li data-pt="Planeamento estratégico" data-en="Strategic planning">Planeamento estratégico</li>
+                        <li data-pt="Fortalecimento institucional" data-en="Institutional strengthening">Fortalecimento institucional</li>
+                        <li data-pt="Planos de negócios e investimento" data-en="Business and investment plans">Planos de negócios e investimento</li>
+                        <li data-pt="Análise de cadeias de valor agrícolas" data-en="Agricultural value chain analysis">Análise de cadeias de valor agrícolas</li>
+                        <li data-pt="Análise de risco financeiro e de investimento" data-en="Financial and investment risk analysis">Análise de risco financeiro e de investimento</li>
+                        <li data-pt="Apoio a programas de desenvolvimento" data-en="Development program support">Apoio a programas de desenvolvimento</li>
+                    </ul>
+                </div>
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                    </div>
+                    <h3 data-pt="Capacitação e Assistência Técnica" data-en="Capacity Building & Technical Assistance">Capacitação e Assistência Técnica</h3>
+                    <ul>
+                        <li data-pt="Formação técnica e transferência de competências" data-en="Technical training and skills transfer">Formação técnica e transferência de competências</li>
+                        <li data-pt="Formação em empreendedorismo e agronegócio" data-en="Entrepreneurship and agribusiness training">Formação em empreendedorismo e agronegócio</li>
+                        <li data-pt="Apoio ao desenvolvimento comunitário" data-en="Community development support">Apoio ao desenvolvimento comunitário</li>
+                        <li data-pt="Assistência técnica a organizações e empresas locais" data-en="Technical assistance for local organizations">Assistência técnica a organizações e empresas locais</li>
+                    </ul>
+                </div>
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    </div>
+                    <h3 data-pt="Agricultura e Cadeias de Valor" data-en="Agriculture & Value Chains">Agricultura e Cadeias de Valor</h3>
+                    <ul>
+                        <li data-pt="Análise de sistemas agrícolas" data-en="Agricultural systems analysis">Análise de sistemas agrícolas</li>
+                        <li data-pt="Estudos de cadeias de valor" data-en="Value chain studies">Estudos de cadeias de valor</li>
+                        <li data-pt="Avaliação de mercados agrícolas" data-en="Agricultural market assessment">Avaliação de mercados agrícolas</li>
+                        <li data-pt="Apoio a empresas agrícolas" data-en="Agribusiness support">Apoio a empresas agrícolas</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section experience" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-pt="EXPERIÊNCIA SELECIONADA" data-en="SELECTED EXPERIENCE">EXPERIÊNCIA SELECIONADA</span>
+                <h2 class="section-title" data-pt="Projectos que marcaram a nossa trajetória" data-en="Projects that shaped our journey">Projectos que marcaram a nossa trajetória</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-tag" data-pt="Avaliação de Programa" data-en="Program Evaluation">Avaliação de Programa</span>
+                        <h3 data-pt="Avaliação Final do Projecto FAME" data-en="Final Evaluation of the FAME Project">Avaliação Final do Projecto FAME</h3>
+                        <p data-pt="Avaliação final do projecto “FAME – Alimentação, Agricultura, Malnutrição e Educação” na Província da Zambézia, Moçambique, implementado pela Mani Tese." data-en="Final evaluation of the “FAME – Food, Agriculture, Malnutrition and Education” Project in Zambézia Province, Mozambique, implemented by Mani Tese.">
+                            Avaliação final do projecto “FAME – Alimentação, Agricultura, Malnutrição e Educação” na Província da Zambézia, Moçambique, implementado pela Mani Tese.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-tag" data-pt="Planeamento Estratégico" data-en="Strategic Planning">Planeamento Estratégico</span>
+                        <h3 data-pt="Plano Estratégico da União Provincial de Camponeses" data-en="Strategic Plan for the Provincial Peasants Union">Plano Estratégico da União Provincial de Camponeses</h3>
+                        <p data-pt="Elaboração do Plano Estratégico 2020–2024 da União Provincial de Camponeses da Província da Zambézia." data-en="Preparation of the 2020–2024 Strategic Plan for the Provincial Union of Peasants of Zambézia Province.">
+                            Elaboração do Plano Estratégico 2020–2024 da União Provincial de Camponeses da Província da Zambézia.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-tag" data-pt="Avaliação de Impacto" data-en="Impact Assessment">Avaliação de Impacto</span>
+                        <h3 data-pt="Projecto Mutacuane — FAO / UniZambeze" data-en="Mutacuane Project — FAO / UniZambeze">Projecto Mutacuane — FAO / UniZambeze</h3>
+                        <p data-pt="Gestão de dados, análise estatística e elaboração de relatórios de avaliação de impacto do Projecto de Pagamento de Serviços Ambientais Mutacuane, implementado pela FAO em parceria com a UniZambeze." data-en="Data management, statistical analysis and preparation of impact assessment reports for the Mutacuane Environmental Services Payment Project implemented by FAO in partnership with UniZambeze.">
+                            Gestão de dados, análise estatística e elaboração de relatórios de avaliação de impacto do Projecto de Pagamento de Serviços Ambientais Mutacuane, implementado pela FAO em parceria com a UniZambeze.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-tag" data-pt="Agronegócio" data-en="Agribusiness">Agronegócio</span>
+                        <h3 data-pt="Programa Agrojovem — Gapi S.I. S.A." data-en="Agrojovem Program — Gapi S.I. S.A.">Programa Agrojovem — Gapi S.I. S.A.</h3>
+                        <p data-pt="Desenvolvimento de planos de negócios e serviços de apoio à gestão para múltiplas empresas agrícolas no âmbito do Programa Agrojovem, apoiado pela Gapi S.I. S.A." data-en="Development of business plans and management support services for multiple agribusiness enterprises under the Agrojovem Program supported by Gapi S.I. S.A.">
+                            Desenvolvimento de planos de negócios e serviços de apoio à gestão para múltiplas empresas agrícolas no âmbito do Programa Agrojovem, apoiado pela Gapi S.I. S.A.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-tag" data-pt="Empreendedorismo" data-en="Entrepreneurship">Empreendedorismo</span>
+                        <h3 data-pt="Incubação e Formação em Empreendedorismo" data-en="Entrepreneurship Incubation & Training">Incubação e Formação em Empreendedorismo</h3>
+                        <p data-pt="Implementação de programas de incubação de empresas e formação em desenvolvimento de negócios para jovens e pequenas empresas na Província da Zambézia." data-en="Implementation of entrepreneurship incubation and business development training programs for youth and small enterprises in Zambézia Province.">
+                            Implementação de programas de incubação de empresas e formação em desenvolvimento de negócios para jovens e pequenas empresas na Província da Zambézia.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-tag" data-pt="Cadeias de Valor" data-en="Value Chains">Cadeias de Valor</span>
+                        <h3 data-pt="Análise de Cadeias de Valor — Sagaci Research" data-en="Value Chain Analysis — Sagaci Research">Análise de Cadeias de Valor — Sagaci Research</h3>
+                        <p data-pt="Análise de cadeias de valor para feijão, milho, macadâmia e arroz na Província da Zambézia, para a Sagaci Research Across Africa." data-en="Value chain analysis for beans, maize, macadamia and rice in Zambézia Province for Sagaci Research Across Africa.">
+                            Análise de cadeias de valor para feijão, milho, macadâmia e arroz na Província da Zambézia, para a Sagaci Research Across Africa.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team & Presence -->
+    <section class="section team" id="team">
+        <div class="container">
+            <div class="team-grid">
+                <div class="team-content">
+                    <span class="section-label" data-pt="A NOSSA EQUIPA" data-en="OUR TEAM">A NOSSA EQUIPA</span>
+                    <h2 class="section-title" data-pt="Profissionais multidisciplinares ao serviço do desenvolvimento" data-en="Multidisciplinary professionals at the service of development">Profissionais multidisciplinares ao serviço do desenvolvimento</h2>
+                    <p data-pt="A V&H Consultores tem uma equipa multidisciplinar composta por profissionais com formação académica e técnica em Economia Agrícola, Agronomia, Engenharia Florestal, Ciências Ambientais, Estatística, Geoprocessamento e SIG, Engenharia Informática e Estudos de Desenvolvimento." data-en="V&H Consultores has a multidisciplinary team composed of professionals with academic and technical backgrounds in Agricultural Economics, Agronomy, Forestry, Environmental Sciences, Statistics, Geoprocessing and GIS, Computer Engineering, and Development Studies.">
+                        A V&H Consultores tem uma equipa multidisciplinar composta por profissionais com formação académica e técnica em Economia Agrícola, Agronomia, Engenharia Florestal, Ciências Ambientais, Estatística, Geoprocessamento e SIG, Engenharia Informática e Estudos de Desenvolvimento.
+                    </p>
+                    <p data-pt="Os nossos especialistas possuem graus de Licenciatura, Mestrado e Doutoramento e têm experiência profissional em investigação, programas de desenvolvimento, análise ambiental, avaliação de impacto e serviços de assessoria institucional." data-en="Our experts hold Bachelor’s, Master’s and Doctoral degrees and possess professional experience in research, development programs, environmental analysis, impact assessment, and institutional advisory services.">
+                        Os nossos especialistas possuem graus de Licenciatura, Mestrado e Doutoramento e têm experiência profissional em investigação, programas de desenvolvimento, análise ambiental, avaliação de impacto e serviços de assessoria institucional.
+                    </p>
+                    <div class="team-divider"></div>
+                    <div class="presence">
+                        <h4 data-pt="Presença Geográfica" data-en="Geographic Presence">Presença Geográfica</h4>
+                        <p data-pt="A V&H Consultores opera principalmente em Moçambique, com experiência em intervenções rurais e de desenvolvimento em várias províncias, particularmente na Província da Zambézia." data-en="V&H Consultores operates primarily in Mozambique, with experience in rural and development-oriented interventions across multiple provinces, particularly in Zambézia Province.">
+                            A V&H Consultores opera principalmente em Moçambique, com experiência em intervenções rurais e de desenvolvimento em várias províncias, particularmente na Província da Zambézia.
+                        </p>
+                        <div class="presence-highlight">
+                            <span class="location-pin">📍</span>
+                            <span class="location-text">Mocuba, Zambézia — Moçambique</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-visual">
+                    <div class="team-image">
+                        <img src="images/treino1.jpg" alt="Equipa V&H em formação de campo">
+                    </div>
+                    <div class="team-map">
+                        <img src="images/mapa_mocuba.png" alt="Localização de Mocuba, Zambézia">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mediateca / Gallery -->
+    <section class="section mediateca" id="mediateca">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-label" data-pt="MEDIATECA" data-en="MEDIA GALLERY">MEDIATECA</span>
+                <h2 class="section-title" data-pt="O nosso trabalho em imagens" data-en="Our work in images">O nosso trabalho em imagens</h2>
+            </div>
+
+            <div class="gallery-filters">
+                <button class="gallery-filter active" data-filter="all" data-pt="Todas" data-en="All">Todas</button>
+                <button class="gallery-filter" data-filter="formacao" data-pt="Formação" data-en="Training">Formação</button>
+                <button class="gallery-filter" data-filter="comunidade" data-pt="Comunidades" data-en="Communities">Comunidades</button>
+                <button class="gallery-filter" data-filter="ambiente" data-pt="Ambiente" data-en="Environment">Ambiente</button>
+                <button class="gallery-filter" data-filter="tecnologia" data-pt="Tecnologia" data-en="Technology">Tecnologia</button>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- Formação -->
+                <div class="gallery-item" data-category="formacao">
+                    <img src="images/treino1.jpg" alt="Formação de campo V&H Consultores" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag" data-pt="Formação" data-en="Training">Formação</span>
+                        <p data-pt="Formação prática de campo para recolha de dados" data-en="Practical field training for data collection">Formação prática de campo para recolha de dados</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="formacao">
+                    <img src="images/treino2.jpg" alt="Formação com tablets" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag" data-pt="Formação" data-en="Training">Formação</span>
+                        <p data-pt="Capacitação em ferramentas digitais de recolha" data-en="Training in digital data collection tools">Capacitação em ferramentas digitais de recolha</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="formacao">
+                    <img src="images/treino_tablets.jpg" alt="Equipa com tablets em campo" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag" data-pt="Formação" data-en="Training">Formação</span>
+                        <p data-pt="Uso de tablets para inquéritos de campo" data-en="Using tablets for field surveys">Uso de tablets para inquéritos de campo</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="formacao">
+                    <img src="images/equipa_grupo.jpg" alt="Equipa V&H Consultores" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag" data-pt="Equipa" data-en="Team">Equipa</span>
+                        <p data-pt="Equipa multidisciplinar da V&H Consultores" data-en="V&H Consultores multidisciplinary team">Equipa multidisciplinar da V&H Consultores</p>
+                    </div>
+                </div>
+
+                <!-- Comunidades -->
+                <div class="gallery-item" data-category="comunidade">
+                    <img src="images/reuniao_comunidade1.jpg" alt="Reunião comunitária" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag" data-pt="Comunidade" data-en="Community">Comunidade</span>
+                        <p data-pt="Consultas comunitárias em Mocuba" data-en="Community consultations in Mocuba">Consultas comunitárias em Mocuba</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="comunidade">
+                    <img src="images/reuniao_comunidade2.jpg" alt="Reunião comunitária formal" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag" data-pt="Comunidade" data-en="Community">Comunidade</span>
+                        <p data-pt="Reunião participativa com líderes comunitários" data-en="Participatory meeting with community leaders">Reunião participativa com líderes comunitários</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="comunidade">
+                    <img src="images/reuniao_comunidade3.jpg" alt="Reunião comunitária" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag" data-pt="Comunidade" data-en="Community">Comunidade</span>
+                        <p data-pt="Diálogo comunitário para avaliação de impacto" data-en="Community dialogue for impact assessment">Diálogo comunitário para avaliação de impacto</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="comunidade">
+                    <img src="images/comunidade_familia.jpg" alt="Família na comunidade" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag" data-pt="Comunidade" data-en="Community">Comunidade</span>
+                        <p data-pt="Interação com famílias locais durante pesquisa" data-en="Interaction with local families during research">Interação com famílias locais durante pesquisa</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="comunidade">
+                    <img src="images/entrevista_campo.jpg" alt="Entrevista em campo" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag" data-pt="Pesquisa" data-en="Research">Pesquisa</span>
+                        <p data-pt="Entrevistas domiciliares no terreno" data-en="Household interviews in the field">Entrevistas domiciliares no terreno</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="comunidade">
+                    <img src="images/entrevista1.jpg" alt="Entrevista estruturada" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag" data-pt="Pesquisa" data-en="Research">Pesquisa</span>
+                        <p data-pt="Recolha de dados qualitativos" data-en="Qualitative data collection">Recolha de dados qualitativos</p>
+                    </div>
+                </div>
+
+                <!-- Ambiente -->
+                <div class="gallery-item" data-category="ambiente">
+                    <img src="images/erosao_estrada.jpg" alt="Erosão em estrada" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag" data-pt="Ambiente" data-en="Environment">Ambiente</span>
+                        <p data-pt="Avaliação de erosão e infraestruturas" data-en="Erosion and infrastructure assessment">Avaliação de erosão e infraestruturas</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="ambiente">
+                    <img src="images/inundacao.jpg" alt="Área inundada" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag" data-pt="Ambiente" data-en="Environment">Ambiente</span>
+                        <p data-pt="Mapeamento de áreas vulneráveis a inundações" data-en="Mapping flood-prone areas">Mapeamento de áreas vulneráveis a inundações</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="ambiente">
+                    <img src="images/construcao1.jpg" alt="Construção rural" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag" data-pt="Infraestruturas" data-en="Infrastructure">Infraestruturas</span>
+                        <p data-pt="Avaliação de infraestruturas comunitárias" data-en="Community infrastructure assessment">Avaliação de infraestruturas comunitárias</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="ambiente">
+                    <img src="images/construcao2.jpg" alt="Estrutura em construção" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag" data-pt="Infraestruturas" data-en="Infrastructure">Infraestruturas</span>
+                        <p data-pt="Levantamento de condições habitacionais" data-en="Housing conditions survey">Levantamento de condições habitacionais</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="ambiente">
+                    <img src="images/casa_tradicional.jpg" alt="Casa tradicional" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag" data-pt="Património" data-en="Heritage">Património</span>
+                        <p data-pt="Documentação de habitação tradicional" data-en="Documentation of traditional housing">Documentação de habitação tradicional</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="ambiente">
+                    <img src="images/paisagem_rural.jpg" alt="Paisagem rural" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag" data-pt="Ambiente" data-en="Environment">Ambiente</span>
+                        <p data-pt="Caracterização da paisagem rural" data-en="Rural landscape characterization">Caracterização da paisagem rural</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="ambiente">
+                    <img src="images/aldeia_vista.jpg" alt="Vista da aldeia" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag" data-pt="Ambiente" data-en="Environment">Ambiente</span>
+                        <p data-pt="Avaliação territorial participativa" data-en="Participatory territorial assessment">Avaliação territorial participativa</p>
+                    </div>
+                </div>
+
+                <!-- Tecnologia -->
+                <div class="gallery-item" data-category="tecnologia">
+                    <img src="images/sig1.jpg" alt="Sistema de amostragem em campo" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">SIG</span>
+                        <p data-pt="Sistema de amostragem sistemática em campo" data-en="Systematic sampling system in the field">Sistema de amostragem sistemática em campo</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="tecnologia">
+                    <img src="images/sig2.jpg" alt="Mapeamento digital" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">SIG</span>
+                        <p data-pt="Georreferenciação e mapeamento de parcelas" data-en="Georeferencing and plot mapping">Georreferenciação e mapeamento de parcelas</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="tecnologia">
+                    <img src="images/mapa_mocuba.png" alt="Mapa de Mocuba" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag" data-pt="Cartografia" data-en="Cartography">Cartografia</span>
+                        <p data-pt="Cartografia de localização do projecto" data-en="Project location mapping">Cartografia de localização do projecto</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-label" data-pt="CONTACTO" data-en="CONTACT">CONTACTO</span>
+                    <h2 class="section-title" data-pt="Vamos trabalhar juntos?" data-en="Let's work together?">Vamos trabalhar juntos?</h2>
+                    <p class="contact-lead" data-pt="Estamos disponíveis para discutir as necessidades da sua organização e explorar como a V&H Consultores pode contribuir para o sucesso dos seus projectos." data-en="We are available to discuss your organization's needs and explore how V&H Consultores can contribute to the success of your projects.">
+                        Estamos disponíveis para discutir as necessidades da sua organização e explorar como a V&H Consultores pode contribuir para o sucesso dos seus projectos.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                            </div>
+                            <div>
+                                <strong data-pt="Endereço" data-en="Address">Endereço</strong>
+                                <p>Avenida Josina Machel<br>Mocuba, Província da Zambézia<br>Mozambique</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                            </div>
+                            <div>
+                                <strong data-pt="Telefone" data-en="Phone">Telefone</strong>
+                                <p>+258 87 700 0604<br>+258 84 400 0604</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            </div>
+                            <div>
+                                <strong>Email</strong>
+                                <p>vicmutepa@gmail.com<br>heldio.wsk@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm" action="https://formspree.io/f/xnqevwlv" method="POST">
+                        <div class="form-group">
+                            <label for="name" data-pt="Nome" data-en="Name">Nome</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" data-pt="Assunto" data-en="Subject">Assunto</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-pt="Mensagem" data-en="Message">Mensagem</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" data-pt="Enviar mensagem" data-en="Send message">Enviar mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img src="images/logo_vh.jpg" alt="V&H Consultores" class="logo-img-small">
+                        <div class="logo-text-group">
+                            <span class="logo-vh">V<span class="logo-amp">&</span>H</span>
+                            <span class="logo-text">Consultores</span>
+                        </div>
+                    </a>
+                    <p data-pt="Consultoria multidisciplinar moçambicana dedicada a soluções de desenvolvimento baseadas em evidências e sustentáveis." data-en="Mozambican multidisciplinary consulting dedicated to evidence-based and sustainable development solutions.">
+                        Consultoria multidisciplinar moçambicana dedicada a soluções de desenvolvimento baseadas em evidências e sustentáveis.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <h4 data-pt="Navegação" data-en="Navigation">Navegação</h4>
+                    <a href="#about" data-pt="Sobre" data-en="About">Sobre</a>
+                    <a href="#expertise" data-pt="Áreas" data-en="Expertise">Áreas</a>
+                    <a href="#experience" data-pt="Experiência" data-en="Experience">Experiência</a>
+                    <a href="#team" data-pt="Equipa" data-en="Team">Equipa</a>
+                    <a href="#mediateca" data-pt="Mediateca" data-en="Media">Mediateca</a>
+                    <a href="#contact" data-pt="Contacto" data-en="Contact">Contacto</a>
+                </div>
+                <div class="footer-links">
+                    <h4 data-pt="Serviços" data-en="Services">Serviços</h4>
+                    <a href="#expertise" data-pt="Pesquisa & M&E" data-en="Research & M&E">Pesquisa & M&E</a>
+                    <a href="#expertise" data-pt="Análise de Dados" data-en="Data Analytics">Análise de Dados</a>
+                    <a href="#expertise" data-pt="Clima & Ambiente" data-en="Climate & Environment">Clima & Ambiente</a>
+                    <a href="#expertise" data-pt="Estratégia" data-en="Strategy">Estratégia</a>
+                    <a href="#expertise" data-pt="Capacitação" data-en="Capacity Building">Capacitação</a>
+                </div>
+                <div class="footer-contact">
+                    <h4 data-pt="Contacto" data-en="Contact">Contacto</h4>
+                    <p>Avenida Josina Machel<br>Mocuba, Zambézia — Moçambique</p>
+                    <p>+258 87 700 0604<br>+258 84 400 0604</p>
+                    <p>vicmutepa@gmail.com<br>heldio.wsk@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 V&H Consultores. <span data-pt="Todos os direitos reservados." data-en="All rights reserved.">Todos os direitos reservados.</span></p>
+                <p class="footer-domain">vhconsultores.co</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev">&#10094;</button>
+        <img src="" alt="" class="lightbox-img" id="lightboxImg">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

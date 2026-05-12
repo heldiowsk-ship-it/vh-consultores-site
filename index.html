@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V&H Consultores | Transformamos Dados em Decisões</title>
+    <meta name="description" content="V&H Consultores - Consultoria especializada em Moçambique. Transformamos dados em decisões estratégicas.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <div class="logo-icon">V&H</div>
+                <span class="logo-text">Consultores</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active" data-pt="Início" data-en="Home">Início</a></li>
+                <li><a href="#about" class="nav-link" data-pt="Sobre" data-en="About">Sobre</a></li>
+                <li><a href="#services" class="nav-link" data-pt="Serviços" data-en="Services">Serviços</a></li>
+                <li><a href="#experience" class="nav-link" data-pt="Experiência" data-en="Experience">Experiência</a></li>
+                <li><a href="#team" class="nav-link" data-pt="Equipa" data-en="Team">Equipa</a></li>
+                <li><a href="#gallery" class="nav-link" data-pt="Galeria" data-en="Gallery">Galeria</a></li>
+                <li><a href="#contact" class="nav-link" data-pt="Contacto" data-en="Contact">Contacto</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="lang-toggle" id="langToggle" title="PT/EN">
+                    <span class="lang-flag">🇲🇿</span>
+                    <span class="lang-code">PT</span>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge" data-pt="Consultoria de Excelência" data-en="Excellence Consulting">Consultoria de Excelência</div>
+            <h1 class="hero-title">
+                <span class="title-line" data-pt="Transformamos Dados" data-en="We Transform Data">Transformamos Dados</span>
+                <span class="title-line highlight" data-pt="em Decisões" data-en="into Decisions">em Decisões</span>
+            </h1>
+            <p class="hero-subtitle" data-pt="Soluções estratégicas em consultoria de gestão, estudos de mercado e desenvolvimento organizacional para impulsionar o seu negócio em Moçambique." data-en="Strategic solutions in management consulting, market research and organizational development to boost your business in Mozambique.">
+                Soluções estratégicas em consultoria de gestão, estudos de mercado e desenvolvimento organizacional para impulsionar o seu negócio em Moçambique.
+            </p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary" data-pt="Fale Connosco" data-en="Contact Us">Fale Connosco</a>
+                <a href="#services" class="btn btn-outline" data-pt="Nossos Serviços" data-en="Our Services">Nossos Serviços</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">10+</span>
+                    <span class="stat-label" data-pt="Anos de Experiência" data-en="Years Experience">Anos de Experiência</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label" data-pt="Projectos Realizados" data-en="Projects Completed">Projectos Realizados</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">30+</span>
+                    <span class="stat-label" data-pt="Clientes Satisfeitos" data-en="Satisfied Clients">Clientes Satisfeitos</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-pt="Quem Somos" data-en="Who We Are">Quem Somos</span>
+                <h2 class="section-title" data-pt="Perfil Institucional" data-en="Institutional Profile">Perfil Institucional</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="about-img-wrapper">
+                        <!-- SUBSTITUIR: foto da equipa ou escritório -->
+                        <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&q=80" alt="V&H Consultores Equipa" class="about-img">
+                        <div class="about-img-badge">
+                            <span class="badge-year">2014</span>
+                            <span class="badge-text" data-pt="Fundada" data-en="Founded">Fundada</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h3 class="about-subtitle" data-pt="Excelência em Consultoria para Moçambique" data-en="Consulting Excellence for Mozambique">Excelência em Consultoria para Moçambique</h3>
+                    <p class="about-text" data-pt="A V&H Consultores é uma empresa moçambicana de consultoria de gestão, especializada em fornecer soluções estratégicas e personalizadas que respondem aos desafios complexos do mercado moçambicano. Com sede na cidade de Quelimane, província da Zambézia, operamos com uma visão clara: transformar dados e conhecimento em decisões eficazes que impulsionam o crescimento sustentável dos nossos clientes." data-en="V&H Consultores is a Mozambican management consulting firm, specialized in providing strategic and customized solutions that respond to the complex challenges of the Mozambican market. Headquartered in Quelimane city, Zambézia province, we operate with a clear vision: transforming data and knowledge into effective decisions that drive our clients' sustainable growth.">
+                        A V&H Consultores é uma empresa moçambicana de consultoria de gestão, especializada em fornecer soluções estratégicas e personalizadas que respondem aos desafios complexos do mercado moçambicano. Com sede na cidade de Quelimane, província da Zambézia, operamos com uma visão clara: transformar dados e conhecimento em decisões eficazes que impulsionam o crescimento sustentável dos nossos clientes.
+                    </p>
+                    <p class="about-text" data-pt="A nossa equipa multidisciplinar combina expertise técnica com profundo conhecimento do contexto local, permitindo-nos oferecer serviços de alta qualidade nas áreas de estudos de mercado, consultoria organizacional, gestão de projectos, monitoria e avaliação, e formação profissional." data-en="Our multidisciplinary team combines technical expertise with deep knowledge of the local context, allowing us to offer high-quality services in market research, organizational consulting, project management, monitoring and evaluation, and professional training.">
+                        A nossa equipa multidisciplinar combina expertise técnica com profundo conhecimento do contexto local, permitindo-nos oferecer serviços de alta qualidade nas áreas de estudos de mercado, consultoria organizacional, gestão de projectos, monitoria e avaliação, e formação profissional.
+                    </p>
+                    <div class="about-values">
+                        <div class="value-card">
+                            <i class="fas fa-eye"></i>
+                            <h4 data-pt="Visão" data-en="Vision">Visão</h4>
+                            <p data-pt="Ser referência nacional em consultoria de gestão, reconhecida pela excelência e impacto medível." data-en="To be a national reference in management consulting, recognized for excellence and measurable impact.">Ser referência nacional em consultoria de gestão, reconhecida pela excelência e impacto medível.</p>
+                        </div>
+                        <div class="value-card">
+                            <i class="fas fa-bullseye"></i>
+                            <h4 data-pt="Missão" data-en="Mission">Missão</h4>
+                            <p data-pt="Fornecer soluções de consultoria inovadoras que maximizem o potencial das organizações moçambicanas." data-en="To provide innovative consulting solutions that maximize the potential of Mozambican organizations.">Fornecer soluções de consultoria inovadoras que maximizem o potencial das organizações moçambicanas.</p>
+                        </div>
+                        <div class="value-card">
+                            <i class="fas fa-handshake"></i>
+                            <h4 data-pt="Valores" data-en="Values">Valores</h4>
+                            <p data-pt="Integridade, Excelência, Inovação, Compromisso com o Cliente e Desenvolvimento Sustentável." data-en="Integrity, Excellence, Innovation, Commitment to the Client and Sustainable Development.">Integridade, Excelência, Inovação, Compromisso com o Cliente e Desenvolvimento Sustentável.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-pt="O que Fazemos" data-en="What We Do">O que Fazemos</span>
+                <h2 class="section-title" data-pt="Áreas de Atuação" data-en="Areas of Expertise">Áreas de Atuação</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 data-pt="Estudos de Mercado" data-en="Market Research">Estudos de Mercado</h3>
+                    <p data-pt="Pesquisa quantitativa e qualitativa, análise de concorrência, segmentação de mercado e estudos de viabilidade para decisões estratégicas fundamentadas." data-en="Quantitative and qualitative research, competition analysis, market segmentation and feasibility studies for informed strategic decisions.">Pesquisa quantitativa e qualitativa, análise de concorrência, segmentação de mercado e estudos de viabilidade para decisões estratégicas fundamentadas.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-sitemap"></i>
+                    </div>
+                    <h3 data-pt="Consultoria Organizacional" data-en="Organizational Consulting">Consultoria Organizacional</h3>
+                    <p data-pt="Reestruturação organizacional, desenvolvimento de modelos de governança, gestão de mudanças e alinhamento estratégico de processos." data-en="Organizational restructuring, governance model development, change management and strategic process alignment.">Reestruturação organizacional, desenvolvimento de modelos de governança, gestão de mudanças e alinhamento estratégico de processos.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3 data-pt="Gestão de Projectos" data-en="Project Management">Gestão de Projectos</h3>
+                    <p data-pt="Planeamento, execução e acompanhamento de projectos de desenvolvimento, desde a concepção até à entrega, garantindo prazos, orçamento e qualidade." data-en="Planning, execution and monitoring of development projects, from conception to delivery, ensuring deadlines, budget and quality.">Planeamento, execução e acompanhamento de projectos de desenvolvimento, desde a concepção até à entrega, garantindo prazos, orçamento e qualidade.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <h3 data-pt="Monitoria & Avaliação" data-en="Monitoring & Evaluation">Monitoria & Avaliação</h3>
+                    <p data-pt="Sistemas de M&A, avaliação de impacto, indicadores de desempenho e relatórios analíticos para programas e projectos de desenvolvimento." data-en="M&E systems, impact assessment, performance indicators and analytical reports for development programs and projects.">Sistemas de M&A, avaliação de impacto, indicadores de desempenho e relatórios analíticos para programas e projectos de desenvolvimento.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3 data-pt="Formação Profissional" data-en="Professional Training">Formação Profissional</h3>
+                    <p data-pt="Workshops, treinamentos e capacitações sob medida em gestão, liderança, análise de dados e competências técnicas específicas." data-en="Workshops, trainings and tailored capacity building in management, leadership, data analysis and specific technical skills.">Workshops, treinamentos e capacitações sob medida em gestão, liderança, análise de dados e competências técnicas específicas.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 data-pt="Análise de Dados" data-en="Data Analysis">Análise de Dados</h3>
+                    <p data-pt="Processamento estatístico, business intelligence, visualização de dados e modelagem preditiva para suporte à decisão." data-en="Statistical processing, business intelligence, data visualization and predictive modeling for decision support.">Processamento estatístico, business intelligence, visualização de dados e modelagem preditiva para suporte à decisão.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience section" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-pt="Nosso Trajecto" data-en="Our Track Record">Nosso Trajecto</span>
+                <h2 class="section-title" data-pt="Experiência Selecionada" data-en="Selected Experience">Experiência Selecionada</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023</span>
+                        <h3 data-pt="Avaliação de Impacto - Programa de Desenvolvimento Rural" data-en="Impact Assessment - Rural Development Program">Avaliação de Impacto - Programa de Desenvolvimento Rural</h3>
+                        <p data-pt="Condução de avaliação de impacto para programa de desenvolvimento rural na Zambézia, cobrindo mais de 5.000 beneficiários e 12 distritos." data-en="Conducted impact assessment for rural development program in Zambézia, covering over 5,000 beneficiaries and 12 districts.">Condução de avaliação de impacto para programa de desenvolvimento rural na Zambézia, cobrindo mais de 5.000 beneficiários e 12 distritos.</p>
+                        <span class="timeline-client" data-pt="Cliente: Cooperante Internacional" data-en="Client: International Cooperant">Cliente: Cooperante Internacional</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2022</span>
+                        <h3 data-pt="Estudo de Mercado - Sector Agroindustrial" data-en="Market Research - Agroindustrial Sector">Estudo de Mercado - Sector Agroindustrial</h3>
+                        <p data-pt="Pesquisa de mercado abrangente para entrada de investidor estrangeiro no sector agroindustrial de Moçambique, incluindo análise de cadeia de valor." data-en="Comprehensive market research for foreign investor entry into Mozambique's agroindustrial sector, including value chain analysis.">Pesquisa de mercado abrangente para entrada de investidor estrangeiro no sector agroindustrial de Moçambique, incluindo análise de cadeia de valor.</p>
+                        <span class="timeline-client" data-pt="Cliente: Grupo Investidor Privado" data-en="Client: Private Investor Group">Cliente: Grupo Investidor Privado</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2021</span>
+                        <h3 data-pt="Reestruturação Organizacional - ONG Nacional" data-en="Organizational Restructuring - National NGO">Reestruturação Organizacional - ONG Nacional</h3>
+                        <p data-pt="Desenho de nova estrutura organizacional, manual de procedimentos e sistema de gestão de desempenho para ONG com operação em 3 províncias." data-en="Designed new organizational structure, procedures manual and performance management system for NGO operating in 3 provinces.">Desenho de nova estrutura organizacional, manual de procedimentos e sistema de gestão de desempenho para ONG com operação em 3 províncias.</p>
+                        <span class="timeline-client" data-pt="Cliente: Organização Não-Governamental" data-en="Client: Non-Governmental Organization">Cliente: Organização Não-Governamental</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2020</span>
+                        <h3 data-pt="Sistema de Monitoria - Projecto de Saúde" data-en="Monitoring System - Health Project">Sistema de Monitoria - Projecto de Saúde</h3>
+                        <p data-pt="Implementação de sistema de monitoria e avaliação em tempo real para projecto de saúde comunitária, incluindo dashboard e indicadores-chave." data-en="Implemented real-time monitoring and evaluation system for community health project, including dashboard and key indicators.">Implementação de sistema de monitoria e avaliação em tempo real para projecto de saúde comunitária, incluindo dashboard e indicadores-chave.</p>
+                        <span class="timeline-client" data-pt="Cliente: Fundação Internacional" data-en="Client: International Foundation">Cliente: Fundação Internacional</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team section" id="team">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-pt="As Nossas Pessoas" data-en="Our People">As Nossas Pessoas</span>
+                <h2 class="section-title" data-pt="Equipa & Presença" data-en="Team & Presence">Equipa & Presença</h2>
+            </div>
+            <div class="team-grid">
+                <div class="team-card">
+                    <!-- SUBSTITUIR: foto do membro da equipa -->
+                    <div class="team-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80" alt="Diretor" class="team-img">
+                    </div>
+                    <div class="team-info">
+                        <h3 data-pt="Hélder W." data-en="Hélder W.">Hélder W.</h3>
+                        <span class="team-role" data-pt="Diretor Geral & Fundador" data-en="CEO & Founder">Diretor Geral & Fundador</span>
+                        <p data-pt="Especialista em gestão de projectos e desenvolvimento organizacional com mais de 15 anos de experiência no sector público e privado." data-en="Expert in project management and organizational development with over 15 years of experience in public and private sectors.">Especialista em gestão de projectos e desenvolvimento organizacional com mais de 15 anos de experiência no sector público e privado.</p>
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <!-- SUBSTITUIR: foto do membro da equipa -->
+                    <div class="team-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80" alt="Consultora" class="team-img">
+                    </div>
+                    <div class="team-info">
+                        <h3 data-pt="Vânia H." data-en="Vânia H.">Vânia H.</h3>
+                        <span class="team-role" data-pt="Directora de Operações" data-en="Operations Director">Directora de Operações</span>
+                        <p data-pt="Especialista em estudos de mercado e análise de dados, com vasta experiência em pesquisa socioeconómica e avaliação de programas." data-en="Expert in market research and data analysis, with extensive experience in socioeconomic research and program evaluation.">Especialista em estudos de mercado e análise de dados, com vasta experiência em pesquisa socioeconómica e avaliação de programas.</p>
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <!-- SUBSTITUIR: foto do membro da equipa -->
+                    <div class="team-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80" alt="Consultor" class="team-img">
+                    </div>
+                    <div class="team-info">
+                        <h3 data-pt="Consultor Sénior" data-en="Senior Consultant">Consultor Sénior</h3>
+                        <span class="team-role" data-pt="Monitoria & Avaliação" data-en="M&E Specialist">Monitoria & Avaliação</span>
+                        <p data-pt="Especialista em sistemas de monitoria e avaliação, indicadores de desempenho e relatórios de impacto para projectos de desenvolvimento." data-en="Specialist in monitoring and evaluation systems, performance indicators and impact reports for development projects.">Especialista em sistemas de monitoria e avaliação, indicadores de desempenho e relatórios de impacto para projectos de desenvolvimento.</p>
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="presence-section">
+                <div class="presence-content">
+                    <h3 data-pt="Presença Nacional" data-en="National Presence">Presença Nacional</h3>
+                    <p data-pt="Com sede na Zambézia, a V&H Consultores opera em todo o território moçambicano, com projectos realizados nas províncias de Nampula, Cabo Delgado, Niassa, Manica, Sofala, Inhambane e Maputo." data-en="Headquartered in Zambézia, V&H Consultores operates throughout Mozambican territory, with projects carried out in Nampula, Cabo Delgado, Niassa, Manica, Sofala, Inhambane and Maputo provinces.">
+                        Com sede na Zambézia, a V&H Consultores opera em todo o território moçambicano, com projectos realizados nas províncias de Nampula, Cabo Delgado, Niassa, Manica, Sofala, Inhambane e Maputo.
+                    </p>
+                </div>
+                <div class="presence-map">
+                    <!-- SUBSTITUIR: mapa de Moçambique com Zambézia destacada -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Mozambique_location_map.svg/800px-Mozambique_location_map.svg.png" alt="Mapa de Moçambique" class="map-img">
+                    <div class="map-highlight" title="Zambézia"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery section" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-pt="Os Nossos Momentos" data-en="Our Moments">Os Nossos Momentos</span>
+                <h2 class="section-title" data-pt="Galeria Fotográfica" data-en="Photo Gallery">Galeria Fotográfica</h2>
+                <p class="section-subtitle" data-pt="Registos visuais dos nossos projectos, equipa e momentos de trabalho em campo." data-en="Visual records of our projects, team and field work moments.">Registos visuais dos nossos projectos, equipa e momentos de trabalho em campo.</p>
+            </div>
+
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all" data-pt="Todas" data-en="All">Todas</button>
+                <button class="filter-btn" data-filter="team" data-pt="Equipa" data-en="Team">Equipa</button>
+                <button class="filter-btn" data-filter="field" data-pt="Trabalho de Campo" data-en="Field Work">Trabalho de Campo</button>
+                <button class="filter-btn" data-filter="events" data-pt="Eventos" data-en="Events">Eventos</button>
+                <button class="filter-btn" data-filter="projects" data-pt="Projectos" data-en="Projects">Projectos</button>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- SUBSTITUIR: fotos reais da equipa e trabalho -->
+                <div class="gallery-item" data-category="team">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&q=80" alt="Equipa em reunião">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title" data-pt="Reunião Estratégica" data-en="Strategic Meeting">Reunião Estratégica</span>
+                        <span class="gallery-category" data-pt="Equipa" data-en="Team">Equipa</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="field">
+                    <img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?w=600&q=80" alt="Trabalho de campo">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title" data-pt="Pesquisa de Campo" data-en="Field Research">Pesquisa de Campo</span>
+                        <span class="gallery-category" data-pt="Campo" data-en="Field">Campo</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="events">
+                    <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&q=80" alt="Evento corporativo">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title" data-pt="Workshop de Capacitação" data-en="Capacity Building Workshop">Workshop de Capacitação</span>
+                        <span class="gallery-category" data-pt="Eventos" data-en="Events">Eventos</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="projects">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80" alt="Análise de dados">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title" data-pt="Análise de Dados" data-en="Data Analysis">Análise de Dados</span>
+                        <span class="gallery-category" data-pt="Projectos" data-en="Projects">Projectos</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="field">
+                    <img src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=600&q=80" alt="Comunidade rural">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title" data-pt="Consultoria Comunitária" data-en="Community Consulting">Consultoria Comunitária</span>
+                        <span class="gallery-category" data-pt="Campo" data-en="Field">Campo</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="team">
+                    <img src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=600&q=80" alt="Equipa no escritório">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title" data-pt="Equipa V&H" data-en="V&H Team">Equipa V&H</span>
+                        <span class="gallery-category" data-pt="Equipa" data-en="Team">Equipa</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="events">
+                    <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=600&q=80" alt="Conferência">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title" data-pt="Conferência Nacional" data-en="National Conference">Conferência Nacional</span>
+                        <span class="gallery-category" data-pt="Eventos" data-en="Events">Eventos</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="projects">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80" alt="Dashboard">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title" data-pt="Dashboard de Monitoria" data-en="Monitoring Dashboard">Dashboard de Monitoria</span>
+                        <span class="gallery-category" data-pt="Projectos" data-en="Projects">Projectos</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="field">
+                    <img src="https://images.unsplash.com/photo-1594708767771-a7502c9648dc?w=600&q=80" alt="Zambézia">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title" data-pt="Zambézia, Moçambique" data-en="Zambézia, Mozambique">Zambézia, Moçambique</span>
+                        <span class="gallery-category" data-pt="Campo" data-en="Field">Campo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose"><i class="fas fa-times"></i></button>
+        <button class="lightbox-prev" id="lightboxPrev"><i class="fas fa-chevron-left"></i></button>
+        <img src="" alt="" class="lightbox-img" id="lightboxImg">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+        <button class="lightbox-next" id="lightboxNext"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-pt="Fale Connosco" data-en="Get in Touch">Fale Connosco</span>
+                <h2 class="section-title" data-pt="Contacto" data-en="Contact">Contacto</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3 data-pt="Localização" data-en="Location">Localização</h3>
+                        <p>Quelimane, Zambézia<br>Moçambique</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3 data-pt="Email" data-en="Email">Email</h3>
+                        <p>info@vhconsultores.co</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h3 data-pt="Telefone" data-en="Phone">Telefone</h3>
+                        <p>+258 84 XXX XXXX</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-clock"></i>
+                        <h3 data-pt="Horário" data-en="Hours">Horário</h3>
+                        <p data-pt="Seg - Sex: 08:00 - 17:00" data-en="Mon - Fri: 08:00 - 17:00">Seg - Sex: 08:00 - 17:00</p>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" action="https://formspree.io/f/info@vhconsultores.co" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label data-pt="Nome" data-en="Name">Nome</label>
+                                <input type="text" name="name" required placeholder="Seu nome completo">
+                            </div>
+                            <div class="form-group">
+                                <label data-pt="Email" data-en="Email">Email</label>
+                                <input type="email" name="email" required placeholder="seu@email.com">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label data-pt="Assunto" data-en="Subject">Assunto</label>
+                            <select name="subject" required>
+                                <option value="" data-pt="Selecione..." data-en="Select...">Selecione...</option>
+                                <option value="consultoria" data-pt="Consultoria Geral" data-en="General Consulting">Consultoria Geral</option>
+                                <option value="estudo" data-pt="Estudo de Mercado" data-en="Market Research">Estudo de Mercado</option>
+                                <option value="projecto" data-pt="Gestão de Projecto" data-en="Project Management">Gestão de Projecto</option>
+                                <option value="formacao" data-pt="Formação" data-en="Training">Formação</option>
+                                <option value="outro" data-pt="Outro" data-en="Other">Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label data-pt="Mensagem" data-en="Message">Mensagem</label>
+                            <textarea name="message" rows="5" required placeholder="Descreva o seu projecto ou dúvida..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" data-pt="Enviar Mensagem" data-en="Send Message">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="logo-icon">V&H</div>
+                        <span class="logo-text">Consultores</span>
+                    </div>
+                    <p data-pt="Transformamos dados em decisões estratégicas para o desenvolvimento sustentável de Moçambique." data-en="We transform data into strategic decisions for the sustainable development of Mozambique.">Transformamos dados em decisões estratégicas para o desenvolvimento sustentável de Moçambique.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4 data-pt="Navegação" data-en="Navigation">Navegação</h4>
+                    <ul>
+                        <li><a href="#about" data-pt="Sobre" data-en="About">Sobre</a></li>
+                        <li><a href="#services" data-pt="Serviços" data-en="Services">Serviços</a></li>
+                        <li><a href="#experience" data-pt="Experiência" data-en="Experience">Experiência</a></li>
+                        <li><a href="#team" data-pt="Equipa" data-en="Team">Equipa</a></li>
+                        <li><a href="#gallery" data-pt="Galeria" data-en="Gallery">Galeria</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 data-pt="Serviços" data-en="Services">Serviços</h4>
+                    <ul>
+                        <li><a href="#services" data-pt="Estudos de Mercado" data-en="Market Research">Estudos de Mercado</a></li>
+                        <li><a href="#services" data-pt="Consultoria Organizacional" data-en="Organizational Consulting">Consultoria Organizacional</a></li>
+                        <li><a href="#services" data-pt="Gestão de Projectos" data-en="Project Management">Gestão de Projectos</a></li>
+                        <li><a href="#services" data-pt="Monitoria & Avaliação" data-en="M&E">Monitoria & Avaliação</a></li>
+                        <li><a href="#services" data-pt="Formação" data-en="Training">Formação</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 data-pt="Contacto" data-en="Contact">Contacto</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Quelimane, Zambézia, Moçambique</p>
+                    <p><i class="fas fa-envelope"></i> info@vhconsultores.co</p>
+                    <p><i class="fas fa-phone"></i> +258 84 XXX XXXX</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 V&H Consultores. <span data-pt="Todos os direitos reservados." data-en="All rights reserved.">Todos os direitos reservados.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
